@@ -1,0 +1,184 @@
+.sy-one{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF852A;
+}
+#syo-f{
+    width: 40px;
+    height: 40px;
+}
+#syo-f img{
+    height: 100%;
+    width: 100%;
+}
+/*搜索栏*/
+#syo-s{
+    width: 90%;
+    height: 24px;
+    /*background-color: #FF4E22;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+
+
+}
+#syo-s a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 24px;
+    color: #F0E0DC;
+    font-size: 13px;
+    background-color: #FF4E22;
+    border: 1px solid #FF4E22;
+    border-radius: 10px;
+
+}
+#syo-span{
+    height: 18px;
+    width: 22px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#syo-s a span img{
+    height: 100%;
+    width: 100%;
+}
+/*第二部分*/
+.sy-two{
+    width: 100%;
+    /*height: 150px;*/
+    position: relative;
+}
+.sy-two img{
+    width: 100%;
+    height: 100%;
+}
+#syt-yuan{
+    width: 100%;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+#syt-yuan div{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    opacity: 0.5;
+}
+#syt-yuan-f{
+    background-color: #FF5000 !important;
+    opacity: 1 !important;
+}
+/*第三部分*/
+.sy-three{
+    width: 100%;
+}
+.th-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.th-f .syth-f{
+    width: 20%;
+}
+.th-f .syth-f div{
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 6px;
+}
+.th-f .syth-f img{
+    width: 90%;
+    height: 90%;
+}
+.th-t{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.th-t .syth-f{
+    width: 20%;
+}
+.th-t .syth-f div{
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 6px;
+}
+.th-t .syth-f img{
+    width: 90%;
+    height: 90%;
+}
+/*第四部分*/
+.sy-four{
+    width: 100%;
+    display: flex;
+}
+.syf-left{
+    width: 20%;
+    margin-left: 5px;
+}
+.one{
+    width: 10px;
+    height: 10px;
+    font-size: 12px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+.syf-right{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+}
+/*第五部分*/
+.sy-five{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 10px solid #F4F4F4;
+}
+.sy-five img{
+    display: flex;
+    width: 80%;
+    height: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+/*第六部分*/
+.sy-six{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.sy-six span{
+    font-size: 12px;
+    display: flex;
+    color: #5D656D;
+    margin-left: 8px;
+    justify-content: center;
+}
+.sy-six span img{
+    width: 40%;
+    height: 40%;
+}

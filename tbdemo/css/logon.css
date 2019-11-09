@@ -1,0 +1,107 @@
+.zc{
+    width: 100%;
+    background-color: #EEEEEE;
+    height: 100%;
+}
+/*第一部分*/
+.zcf-f{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #D2D2D2;
+    position: relative;
+}
+.zcf-f h4{
+    padding-left: 20px;
+    font-size: 16px;
+    color: #333;
+}
+.zcf-f a{
+    position: absolute;
+    right: 20px;
+    font-size: 16px;
+    color: #999999;
+}
+.zcf-t{
+    width: 100%;
+    height: 30px;
+    background-color: #EEEEEE;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+/*第二部分*/
+.zc-s{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+.zcs-f{
+    width: 100%;
+    height: 50px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #D2D2D2;
+}
+#tu{
+    height: 16px;
+    width: 16px;
+    margin-right: 20px;
+}
+#tu img{
+    height: 100%;
+    width: 100%;
+}
+#text{
+    color:#333333;
+}
+.zcs-s{
+    width: 100%;
+    height: 50px;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+/*第三部分*/
+.zc-t{
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid #D2D2D2;
+    display: flex;
+    justify-content: center;
+}
+.zct-f{
+    width: 90%;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.zct-f img{
+    width: 100%;
+    height: 100%;
+}
+/*第四部分*/
+.zc-fo{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    font-size: 14px;
+    color: #7B7B7B;
+}
+.zc-fo a{
+    color: #FF4400;
+}

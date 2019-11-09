@@ -1,0 +1,95 @@
+body{
+    background-color: #EEEEEE;
+}
+.ss{
+    width: 100%;
+    position: relative;
+}
+.ss-one{
+    height: 46px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.ss-one input{
+    width: 80%;
+    height: 30px;
+    background-color: #E3E3E5;
+    margin-left: 10px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #999999;
+    padding-left: 5px;
+}
+#im-f{
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    left: 35px;
+    /*top: 10px;*/
+}
+#im-f img{
+    width: 100%;
+    height: 100%;
+}
+#im-t{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 75%;
+}
+#im-t img{
+    width: 100%;
+    height: 100%;
+}
+.ss-one span{
+    margin: auto;
+    font-size: 12px;
+    color: #333;
+}
+/*第二部分*/
+.ss-two{
+    width: 100%;
+    color: #999999;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+}
+/*第三部分*/
+.ss-three{
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.ss-three li{
+    height: 20px;
+    width: inherit;
+    border: 1px solid #DEDEDE;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #666;
+    font-size: 14px;
+}
+/*第四部分*/
+.ss-four{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 480px;
+}
+.ss-four img{
+    height: 100%;
+    width: 100%;
+}
