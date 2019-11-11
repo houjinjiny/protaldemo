@@ -1,0 +1,132 @@
+.dd{
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 100%;
+
+}
+.dd-f{
+    height: 40px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.dd-f a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 14px;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#ddf-f{
+    border-bottom: 3px solid #FF5000;
+    color: #FF5000;
+}
+/*第二部分*/
+.dd-s{
+
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    /*justify-content: space-between;*/
+}
+.dd-s input{
+    height: 30px;
+    width: 70%;
+    border: none;
+    border-radius: 20px;
+    padding-left: 40px;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+}
+.dds-f{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 5px;
+    left: 34px;
+}
+.dds-f img{
+    height: 100%;
+    width: 100%;
+}
+.dd-s a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 30px;
+    background-color: #FF5000;
+    margin-left: 20px;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+/*第三部分*/
+.dd-t{
+    width: 100%;
+    margin-top: 100px;
+}
+.ddt-f{
+    width: 100%;
+    height: 82px;
+    display: flex;
+    justify-content: center;
+}
+.ddt-f img{
+    width: 82px;
+    height: 82px;
+}
+.ddt-s{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+.ddt-t{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+}
+.ddt-d{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.ddt-d span{
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #FF5000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+/*第四部分*/
+.sy-six{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.sy-six span{
+    font-size: 12px;
+    display: flex;
+    color: #5D656D;
+    margin-left: 8px;
+    justify-content: center;
+}
+.sy-six span img{
+    width: 40%;
+    height: 40%;
+}

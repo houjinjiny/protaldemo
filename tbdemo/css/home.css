@@ -97,7 +97,9 @@
 .th-f .syth-f{
     width: 20%;
 }
-.th-f .syth-f div{
+.th-f .syth-f a{
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 12px;
     color: #666666;
@@ -117,7 +119,9 @@
 .th-t .syth-f{
     width: 20%;
 }
-.th-t .syth-f div{
+.th-t .syth-f a{
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 12px;
     color: #666666;
@@ -181,4 +185,34 @@
 .sy-six span img{
     width: 40%;
     height: 40%;
+}
+.tao{
+    width: 70px;
+    height: 60px;
+    position: absolute;
+    bottom: 140px;
+    right: -7px;
+    text-align: center;
+}
+#tao-one{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-left: 10px;
+}
+#tao-one img{
+    width: 100%;
+    height: 100%;
+}
+#tao-two{
+    height: 20px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    background-color: #FF5000;
+    border-radius: 10px;
+    margin-top: 5px;
 }

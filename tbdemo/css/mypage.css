@@ -1,0 +1,261 @@
+.mp{
+    width: 100%;
+    background-color: #F2F2F2;
+}
+/*第一部分*/
+.mp-f{
+    width: 100%;
+    height: 200px;
+    background-color: #FF5000;
+}
+.mpf-f{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 20px;
+    position: relative;
+}
+.mff-f{
+    width: 60px;
+    height: 60px;
+
+}
+.mff-f img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.mff-s{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.mff-t{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 60px;
+}
+.mff-t img{
+    width: 100%;
+    height: 100%;
+}
+.mff-fo{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 20px;
+}
+.mff-fo img{
+    width: 100%;
+    height: 100%;
+}
+.mpf-s{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.ms-f{
+    color: #FFFFFF;
+}
+.msf-f{
+    font-size: 24px;
+    text-align: center;
+}
+.msf-s{
+    font-size: 20px;
+}
+/*第二部分*/
+.mp-s{
+    width: 95%;
+    background-color: #FFFFFF;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.mps-f{
+   border-bottom: 1px solid #F2F2F2;
+    height: 30px;
+    position: relative;
+}
+#mpsf-f{
+    font-size: 25px;
+    color: #333;
+    font-weight: bold;
+    padding-left: 10px;
+}
+#mpsf-s{
+    float: right;
+    font-size: 21px;
+    color: #999;
+    padding-right: 20px;
+}
+.mps-f div{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 4px;
+    right: 0px;
+}
+.mps-f div img{
+    width: 100%;
+    height: 100%;
+}
+.mps-s{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.mpssf-f{
+    height: 60px;
+    width: 60px;
+}
+.mpssf-f img{
+    height: 90%;
+    width: 90%;
+}
+#mp-one{
+    padding-left: 10px;
+}
+.mpss-f span{
+    font-size: 21px;
+    color: #666;
+
+}
+.mpss-f{
+    text-align: center;
+}
+/*第三部分*/
+.mp-t{
+    width: 95%;
+    background-color: #FFFFFF;
+    margin: 20px auto;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.mptf-f{
+    border-bottom: 1px solid #F2F2F2;
+    height: 30px;
+    position: relative;
+}
+#mptf-f{
+    font-size: 25px;
+    color: #333;
+    font-weight: bold;
+    padding-left: 10px;
+}
+#mptf-s{
+    float: right;
+    font-size: 21px;
+    color: #999;
+    padding-right: 20px;
+}
+.mpt-f div{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 4px;
+    right: 0px;
+}
+.mpt-f div img{
+    width: 100%;
+    height: 100%;
+}
+/*第四部分*/
+.sy-three{
+    width: 100%;
+    margin-top: 20px;
+}
+.th-f{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.th-f .syth-f{
+    width: 20%;
+}
+.th-f .syth-f a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 6px;
+}
+.th-f .syth-f img{
+    width: 90%;
+    height: 90%;
+}
+.th-t{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.th-t .syth-f{
+    width: 20%;
+}
+.th-t .syth-f a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 6px;
+}
+.th-t .syth-f img{
+    width: 90%;
+    height: 90%;
+}
+/*第五部分*/
+.sy-six{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.sy-six span{
+    font-size: 12px;
+    display: flex;
+    color: #5D656D;
+    margin-left: 8px;
+    justify-content: center;
+}
+.sy-six span img{
+    width: 40%;
+    height: 40%;
+}
+.tao{
+    width: 70px;
+    height: 60px;
+    position: absolute;
+    bottom: 140px;
+    right: -7px;
+    text-align: center;
+}
+#tao-one{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-left: 10px;
+}
+#tao-one img{
+    width: 100%;
+    height: 100%;
+}
+#tao-two{
+    height: 20px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    background-color: #FF5000;
+    border-radius: 10px;
+    margin-top: 5px;
+}
