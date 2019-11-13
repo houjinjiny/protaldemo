@@ -170,10 +170,13 @@
 /*第六部分*/
 .sy-six{
     width: 100%;
-    height: 40px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 30px;
+    position: fixed;
+    bottom: 0px;
+    background-color: #FFFFFF;
 }
 .sy-six span{
     font-size: 12px;
@@ -189,7 +192,7 @@
 .tao{
     width: 70px;
     height: 60px;
-    position: absolute;
+    position: fixed;
     bottom: 140px;
     right: -7px;
     text-align: center;
@@ -210,9 +213,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size: 12px;
     background-color: #FF5000;
     border-radius: 10px;
     margin-top: 5px;
+}
+#tao-two a{
+    color: white;
+    font-size: 12px;
+}
+/*第七部分*/
+#one{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.o-o{
+    text-align: center;
+    border-right: 1px solid #EEEEEE;
+}
+.oo-o{
+    font-size: 15px;
+    color: #333333;
+}
+.oo-t{
+    font-size: 13px;
+    color: #999999;
+}
+.oo-th{
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+}
+.oo-th img{
+    height: 100%;
+    width: 100%;
 }

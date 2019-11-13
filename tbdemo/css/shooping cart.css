@@ -37,9 +37,9 @@
     position: relative;
 }
 .cha{
-    position: absolute;
-    right: 20px;
-    top: 0px;
+    position: fixed;
+    right: 0px;
+    top: 92px;
     overflow: hidden;
 }
 .sco-t{
@@ -130,7 +130,7 @@
 .sc-two{
     width: 100%;
     display: flex;
-    position: absolute;
+    position: fixed;
     bottom: 50px;
     align-items: center;
     margin-left: 10px;
@@ -163,11 +163,11 @@
 /*第三部分*/
 .sy-six{
     width: 100%;
-    height: 40px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
 }
 .sy-six span{

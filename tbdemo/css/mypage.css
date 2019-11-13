@@ -1,6 +1,7 @@
 .mp{
     width: 100%;
     background-color: #F2F2F2;
+    position: relative;
 }
 /*第一部分*/
 .mp-f{
@@ -131,7 +132,7 @@
     margin: 20px auto;
     border-radius: 10px;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 .mptf-f{
     border-bottom: 1px solid #F2F2F2;
@@ -164,7 +165,8 @@
 /*第四部分*/
 .sy-three{
     width: 100%;
-    margin-top: 20px;
+    /*margin-top: 10px;*/
+    margin-bottom: 50px;
 }
 .th-f{
     display: flex;
@@ -213,10 +215,13 @@
 /*第五部分*/
 .sy-six{
     width: 100%;
-    height: 40px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    position: fixed;
+    bottom: 0;
+    background-color: #FFFFFF;
 }
 .sy-six span{
     font-size: 12px;
@@ -224,6 +229,7 @@
     color: #5D656D;
     margin-left: 8px;
     justify-content: center;
+
 }
 .sy-six span img{
     width: 40%;
@@ -232,8 +238,8 @@
 .tao{
     width: 70px;
     height: 60px;
-    position: absolute;
-    bottom: 140px;
+    position: fixed;
+    bottom: 40%;
     right: -7px;
     text-align: center;
 }
@@ -253,9 +259,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size: 12px;
     background-color: #FF5000;
     border-radius: 10px;
     margin-top: 5px;
+}
+#tao-two a{
+    color: white;
+    font-size: 12px;
 }

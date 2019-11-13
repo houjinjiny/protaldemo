@@ -47,6 +47,8 @@ body{
 }
 .ss-one span{
     margin: auto;
+}
+.ss-one span{
     font-size: 12px;
     color: #333;
 }
