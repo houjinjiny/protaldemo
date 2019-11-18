@@ -1,3 +1,6 @@
+.sy{
+    position: relative;
+}
 .sy-one{
     width: 100%;
     height: 40px;
@@ -5,6 +8,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: #FF852A;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+
 }
 #syo-f{
     width: 40px;
@@ -24,8 +31,6 @@
     align-items: center;
     margin-right: 15px;
     margin-left: 15px;
-
-
 }
 #syo-s a{
     display: flex;
@@ -57,6 +62,7 @@
     width: 100%;
     /*height: 150px;*/
     position: relative;
+    margin-top: 40px;
 }
 .sy-two img{
     width: 100%;
@@ -148,7 +154,7 @@
     border: 1px solid red;
     border-radius: 4px;
 }
-.syf-right{
+.syf-right a{
     margin-top: 5px;
     font-size: 14px;
     color: #333;
@@ -222,12 +228,11 @@
     font-size: 12px;
 }
 /*第七部分*/
-#one{
+.four{
     width: 100%;
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
-    margin-bottom: 40px;
 }
 .o-o{
     text-align: center;
@@ -249,4 +254,12 @@
 .oo-th img{
     height: 100%;
     width: 100%;
+}
+.five{
+    margin-bottom: 60px;
+}
+#two .oo-th img{
+    width:60px;
+    height: 40px;
+    margin-top: 20px;
 }
