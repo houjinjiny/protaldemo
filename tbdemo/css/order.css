@@ -1,6 +1,8 @@
+body{
+    background-color: #F5F5F5;
+}
 .dd{
     width: 100%;
-    background-color: #F5F5F5;
     height: 100%;
 
 }
@@ -35,12 +37,13 @@
 }
 .dd-s input{
     height: 30px;
-    width: 70%;
+    width: 65%;
     border: none;
     border-radius: 20px;
     padding-left: 40px;
     background-color: #FFFFFF;
     margin-left: 20px;
+    outline: none;
 }
 .dds-f{
     height: 20px;
@@ -60,7 +63,7 @@
     width: 15%;
     height: 30px;
     background-color: #FF5000;
-    margin-left: 20px;
+    margin-left: 1px;
     border-radius: 12px;
     font-size: 14px;
     color: #FFFFFF;

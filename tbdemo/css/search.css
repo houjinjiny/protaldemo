@@ -23,6 +23,7 @@ body{
     font-size: 14px;
     color: #999999;
     padding-left: 5px;
+    outline: none;
 }
 #im-f{
     width: 30px;
@@ -88,8 +89,8 @@ body{
 .ss-four{
     width: 100%;
     height: 80px;
-    position: absolute;
-    top: 480px;
+    position: fixed;
+    bottom: 0px;
 }
 .ss-four img{
     height: 100%;
